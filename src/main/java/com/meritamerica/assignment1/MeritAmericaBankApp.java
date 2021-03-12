@@ -3,9 +3,12 @@
 package com.meritamerica.assignment1;
 import java.util.Scanner;
 
-public class MeritAmericaBankApp {
+import acm.program.ConsoleProgram;
+import acm.program.DialogProgram;
 
-    public static void main(String[] args) {
+public class MeritAmericaBankApp extends DialogProgram {
+
+    public void run() {
         Scanner input = new Scanner(System.in);
         AccountHolder holder = new AccountHolder();
 
